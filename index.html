@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>counter</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="text">
+			<p>Lorem ipsum dolor sit amet, <span class="tool" data-message="Lorem ipsum dolor.1">consectetur</span> adipisicing elit. Cum veritatis illo hic ullam atque omnis ratione soluta, veniam vitae quasi deserunt dolorem ducimus at ab, debitis. Vitae beatae ut et quasi atque, similique consectetur consequuntur, laboriosam provident, odio omnis laudantium.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum veritatis illo hic ullam <span class="tool" data-message="Lorem ipsum dolor.2">atque</span> omnis ratione soluta, veniam vitae quasi deserunt dolorem ducimus at ab, debitis. Vitae beatae ut et quasi atque, similique consectetur consequuntur, laboriosam provident, odio omnis laudantium.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="tool" data-message="Lorem ipsum dolor.3">Cum</span> veritatis illo hic ullam atque omnis ratione soluta, veniam vitae quasi deserunt dolorem ducimus at ab, debitis. Vitae beatae ut et quasi atque, similique consectetur consequuntur, laboriosam provident, odio omnis laudantium.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum veritatis illo hic ullam atque omnis ratione <span class="tool" data-message="Lorem ipsum dolor.4">soluta</span>, veniam vitae quasi deserunt dolorem ducimus at ab, debitis. Vitae beatae ut et quasi atque, similique consectetur consequuntur, laboriosam provident, odio omnis laudantium.</p>
+			<p>Lorem <span class="tool" data-message="Lorem ipsum dolor.5">ipsum</span> dolor sit amet, consectetur adipisicing elit. Cum veritatis illo hic ullam atque omnis ratione soluta, veniam vitae quasi deserunt dolorem ducimus at ab, debitis. Vitae beatae ut et quasi atque, similique consectetur consequuntur, laboriosam provident, odio omnis laudantium.</p>
+		</div>
+	</div>
+	
+	
+	<script src="js/main.js"></script>
+	<script>
+		ToolTip({
+			parent: document.getElementsByClassName('tool')
+		});
+	</script>
+</body>
+</html>
